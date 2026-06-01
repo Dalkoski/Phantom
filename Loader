@@ -2,5 +2,5 @@ local gameid = game.PlaceId
 if gameid == 89469502395769 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dalkoski/Games/refs/heads/main/KickALuckyBlock"))()
 elseif gameid == 92416421522960 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dalkoski/Games/refs/heads/main/SlimeRNG"))()
+    game:GetService("Players").LocalPlayer:Kick([[Script outdaed, find new keyless version on https://discord.gg/Jt7mUkAPBp or execute this: loadstring(game:HttpGet("https://raw.githubusercontent.com/Dalkoski/Stellar/refs/heads/main/Loader"))()]])
 end
